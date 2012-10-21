@@ -1,0 +1,9 @@
+{
+    "name": "navbuilder",
+    "readable": "navBuilder",
+    "version": "1.0",
+    "stable": true,
+    "description": "Adds a nested navigation (unordered list) to your site.",
+    "author": "Fabian Beiner",
+    "url": "http://fabian-beiner.de/"
+}
