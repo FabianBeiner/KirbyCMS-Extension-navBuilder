@@ -29,7 +29,7 @@ if (!function_exists('navBuilder')) {
                 $sMenu .= $sTabs . '</li>' . PHP_EOL;
             }
             else {
-                $sMenu .= $sTabs . '<li class="' . $sClassLi . '"><a href="' . $aPage->url() . '">' . html($aPage->title()) . '</a></li>' . PHP_EOL;
+                $sMenu .= $sTabs . '<li class="' . $sClassLi . '"><a href="' . $aPage->url() . '"' . $sAttrA . '>' . html($aPage->title()) . '</a></li>' . PHP_EOL;
             }
         }
 
